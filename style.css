@@ -11,9 +11,15 @@
      src: url("fonts/DSFetteKanzlei.ttf");
 }
 body{
-     color: white;
+     margin: 0; 
+     padding: 0;
      background: black;
+     min-height: 100vh;
+}
+.main-container{
+     color: white;
      max-width: 600px;
+     padding: 1rem;
      margin: auto;
 }
 
@@ -34,11 +40,12 @@ p {
 li {
      font-family: latinModern;
      color: aqua;
+     text-align: center;
 }
 
 code {
      color: lime;
-     font-size: x-large;
+     font-size: large;
      background: #222222;
 }
 
@@ -50,8 +57,20 @@ em {
      color: aqua;
 }
 
+a:link {
+     color: aqua;
+}
+a:visited {
+     color: purple;
+}
+a:hover {
+     color: white;
+}
+a:active {
+     color: yellow;
+}
+
 .image-container {
      width: fit-content;
      margin: auto;
 }
-

@@ -61,6 +61,8 @@ nav {
      justify-content: center;
      flex-wrap: wrap;
      padding: 1em;
+     font-family: serif;
+     font-size: 1.15rem;
 }
 
 h1, h2, p{
@@ -69,6 +71,12 @@ h1, h2, p{
 
 em {
      color: aqua;
+}
+
+footer {
+     text-align: center;
+     font-family: latinModern;
+     font-size: 1.15rem;
 }
 
 a:link {

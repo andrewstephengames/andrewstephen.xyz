@@ -35,7 +35,7 @@ h2 {
 }
 
 p {
-     font-size: 1.33rem;
+     font-size: 1.15rem;
      font-family: latinModern;
 }
 
@@ -47,8 +47,20 @@ li {
 
 code {
      color: #17DC33;
-     font-size: 1.33rem;
+     font-size: 1.15rem;
      background: #111111;
+}
+
+code:hover{
+     font-style: italic;
+}
+
+nav {
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 1em;
 }
 
 h1, h2, p{
@@ -61,15 +73,19 @@ em {
 
 a:link {
      color: aqua;
+     text-decoration: none;
 }
 a:visited {
      color: purple;
+     text-decoration: none;
 }
 a:hover {
      color: white;
+     text-decoration: none;
 }
 a:active {
      color: yellow;
+     text-decoration: none;
 }
 
 ul {

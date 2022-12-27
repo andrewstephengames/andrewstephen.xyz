@@ -1,27 +1,53 @@
+@font-face {
+     font-family: latinModern;
+     src: url("fonts/lmroman12-regular.otf") format("opentype");
+}
+@font-face {
+     font-family: latinModernBold;
+     src: url("fonts/lmroman12-bold.otf") format("opentype");
+}
+@font-face {
+     font-family: germanFont;
+     src: url("fonts/DSFetteKanzlei.ttf");
+}
 body{
      color: white;
      background: black;
-     max-width: 1000px;
+     max-width: 600px;
      margin: auto;
 }
 
 h1 {
      color: lime;
+     font-size: 3rem;
+     font-family: germanFont;
 }
 h2 {
-     color: yellow;
+     color: lime;
+     font-family: germanFont;
 }
 
-h1,h2, p, h3{
+p {
+     font-family: latinModern;
+}
+
+li {
+     font-family: latinModern;
+     color: aqua;
+}
+
+code {
+     color: lime;
+     font-size: x-large;
+     background: #222222;
+}
+
+h1, h2, p{
      text-align: center;
 }
 
 em {
      color: aqua;
-}
-
-li {
-     color: gray;
 }
 
 .image-container {

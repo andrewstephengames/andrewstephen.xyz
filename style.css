@@ -24,12 +24,12 @@ body{
 }
 
 h1 {
-     color: lime;
+     color: #17DC33;
      font-size: 3rem;
      font-family: germanFont;
 }
 h2 {
-     color: lime;
+     color: #17DC33;
      font-family: germanFont;
 }
 
@@ -44,9 +44,9 @@ li {
 }
 
 code {
-     color: lime;
-     font-size: large;
-     background: #222222;
+     color: #17DC33;
+     font-size: medium;
+     background: #111111;
 }
 
 h1, h2, p{
@@ -68,6 +68,10 @@ a:hover {
 }
 a:active {
      color: yellow;
+}
+
+ul {
+     #list-style-type: none;
 }
 
 .image-container {

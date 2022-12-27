@@ -30,10 +30,12 @@ h1 {
 }
 h2 {
      color: #17DC33;
+     font-size: 2rem;
      font-family: latinModern;
 }
 
 p {
+     font-size: 1.33rem;
      font-family: latinModern;
 }
 
@@ -45,7 +47,7 @@ li {
 
 code {
      color: #17DC33;
-     font-size: medium;
+     font-size: 1.33rem;
      background: #111111;
 }
 

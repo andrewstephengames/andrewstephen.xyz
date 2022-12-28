@@ -19,7 +19,7 @@ body{
 .main-container{
      color: white;
      max-width: 600px;
-     padding: 1rem;
+     padding: 0.25rem;
      margin: auto;
 }
 
@@ -55,18 +55,33 @@ code:hover{
      font-style: italic;
 }
 
-nav {
+.navbar {
      display: flex;
      margin: auto;
      justify-content: center;
      flex-wrap: wrap;
      padding: 1em;
-     font-family: serif;
+     font-family: latinModern;
      font-size: 1.15rem;
 }
 
-h1, h2, p{
+.current-projects {
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     flex-wrap: wrap;
+     #padding: 0.25em;
+     font-family: latinModern;
+     font-size: 1.15rem;
+}
+
+
+h1, h2{
      text-align: center;
+}
+
+.introduction {
+     margin-left: 10%;
 }
 
 em {
@@ -77,6 +92,7 @@ footer {
      text-align: center;
      font-family: latinModern;
      font-size: 1.15rem;
+     padding: 1.2em;
 }
 
 a:link {
@@ -84,7 +100,7 @@ a:link {
      text-decoration: none;
 }
 a:visited {
-     color: purple;
+     color: blue;
      text-decoration: none;
 }
 a:hover {
@@ -96,13 +112,15 @@ a:active {
      text-decoration: none;
 }
 
-ul {
-     #list-style-type: none;
-}
-
 .image-container {
      width: fit-content;
      margin: auto;
      #min-height: 25vh;
      #min-width: 17vh;
+}
+
+.squirrel-subtitle {
+     text-align: center;     
+     margin-left: 0%;
+     margin-right: 0%;
 }

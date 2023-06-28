@@ -34,21 +34,31 @@ h2 {
      font-family: latinModern;
 }
 
-p {
+h3 {
      font-size: 1.15rem;
      font-family: latinModern;
 }
 
+p {
+     font-size: 1.25rem;
+     font-family: latinModern;
+}
+
+ul {
+     list-style-type: none;
+}
+
 li {
      font-family: latinModern;
-     color: aqua;
+     #color: aqua;
      text-align: center;
 }
 
 code {
      color: #17DC33;
-     font-size: 1.15rem;
-     background: #111111;
+     font-size: 1.0rem;
+     #background: #111111;
+     background: #000000;
 }
 
 code:hover{
@@ -75,8 +85,18 @@ code:hover{
      font-size: 1.15rem;
 }
 
+.project-actions {
+     #display: flex;
+     margin: auto;
+     justify-content: left;
+     flex-wrap: wrap;
+     #padding: 0.25em;
+     font-family: latinModern;
+     font-size: 1.15rem;
+}
 
-h1, h2{
+
+h1, h2, h3{
      text-align: center;
 }
 
@@ -99,7 +119,7 @@ a:link {
      text-decoration: none;
 }
 a:visited {
-     color: blue;
+     color: aqua;
      text-decoration: none;
 }
 a:hover {

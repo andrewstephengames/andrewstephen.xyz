@@ -46,11 +46,13 @@ p {
 
 ul {
      list-style-type: none;
+     color: white;
 }
 
 li {
      font-family: latinModern;
-     #color: aqua;
+     list-style-type: none;
+     color: white;
      text-align: center;
 }
 
